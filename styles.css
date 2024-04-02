@@ -15,22 +15,22 @@ body {
 }
 
 h1 {
-    font-size: 2.5vw;
+    font-size: 4vh;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 1vh;
 }
 
 h3 {
-    font-size: 1.5vw;
+    font-size: 3vh;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 a {
-    font-size: 1.25vw;
+    font-size: 2.5vh;
     display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
+    margin: 1vh;
+    padding: 1vh 2vh;
     text-decoration: none;
     color: #fff;
     background-color: #333;
@@ -43,65 +43,5 @@ a:hover {
 }
 
 i {
-    margin-right: 5px;
-}
-
-/* Desktops */
-@media only screen and (max-width: 1200px) {
-    h1 {
-        font-size: 3.5vw;
-    }
-
-    h3 {
-        font-size: 2.5vw;
-    }
-
-    a {
-        font-size: 1.75vw;
-    }
-}
-
-/* Laptops */
-@media only screen and (max-width: 1024px) {
-    h1 {
-        font-size: 4.5vw;
-    }
-
-    h3 {
-        font-size: 3.25vw;
-    }
-
-    a {
-        font-size: 2.25vw;
-    }
-}
-
-/* Tablets */
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 5vw;
-    }
-
-    h3 {
-        font-size: 4vw;
-    }
-
-    a {
-        font-size: 3vw;
-    }
-}
-
-/* Phones */
-@media only screen and (max-width: 480px) {
-    h1 {
-        font-size: 6vw;
-    }
-
-    h3 {
-        font-size: 5vw;
-    }
-
-    a {
-        font-size: 4vw;
-    }
+    margin-right: 0.5vh;
 }
